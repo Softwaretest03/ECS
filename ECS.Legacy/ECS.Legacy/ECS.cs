@@ -2,7 +2,7 @@
 
 namespace ECS.Legacy
 {
-    public class ECS
+    public class ECS : IECS
     {
         private int _threshold;
         private readonly TempSensor _tempSensor;
